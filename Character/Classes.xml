@@ -8476,6 +8476,22 @@
                 <text>4th - aura of life, death ward</text>
                 <text>5th - contagion, legend lore</text>
             </feature>
+            __________
+            <feature optional="YES">
+                <name>Otherworldly Patron: The Celestial</name>
+                <text>Your patron is a powerful being of the Upper Planes. You have bound yourself to an ancient empyrean, solar, ki-rin, unicorn, or other entity that resides in the planes of everlasting bliss. Your pact with that being allows you to experience the barest touch of the holy light that illuminates the multiverse.</text>
+                <text>Being connected to such power can cause changes to your behavior and beliefs. You might find yourself driven to annihilate the undead, to defeat fiends, and to protect the innocent. At times, your heart might also be filled with a longing for the celestial realm of your patron, a desire to wander that paradise for the rest of your days. But you know that your mission is among mortals for now and that your pact binds you to bring light to the dark places of the world.</text>
+                <text />
+                <text>Expanded Spell List:</text>
+                <text>The Celestial lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.</text>
+                <text />
+                <text>1st - cure wounds, guiding bolt</text>
+                <text>2nd - flaming sphere, lesser restoration</text>
+                <text>3rd - day light, revivify</text>
+                <text>4th - guardian of faith, wall of fire</text>
+                <text>5th - flame strike, greater restoration</text>
+            </feature>
+            _________
             <feature optional="YES">
                 <name>The Archfey: Fey Presence</name>
                 <text>Starting at 1st level, your patron bestows upon you the ability to project the beguiling and fearsome presence of the fey. As an action, you can cause each creature in a 10-foot cube originating from you to make a Wisdom saving throw against your warlock spell save DC. The creatures that fail their saving throws are all charmed or frightened by you (your choice) until the end of your next turn.</text>
@@ -8492,7 +8508,12 @@
             <feature optional="YES">
                 <name>The Undying: Among the Dead</name>
                 <text>Starting at 1st level, you learn the spare the dying cantrip, which counts as a warlock cantrip for you. You also have advantage on saving throws against any disease.</text>
-                <text>    Additionally, undead have difficulty harming you. If an undead targets you directly with an attack or a harmful spell, that creature must make a Wisdom saving throw against your spell save DC (an undead needn't make the save when it includes you in an area effect, such as the explosion of fireball). On a failed save, the creature must choose a new target or forfeit targeting someone instead of you, potentially wasting the attack or spell. On a succesful save, the creature is immune to this effect for 24 hours. An undead is also immune to this effect for 24 hours if you target it with an attack or a harmful spell.</text>
+                <text>Additionally, undead have difficulty harming you. If an undead targets you directly with an attack or a harmful spell, that creature must make a Wisdom saving throw against your spell save DC (an undead needn't make the save when it includes you in an area effect, such as the explosion of fireball). On a failed save, the creature must choose a new target or forfeit targeting someone instead of you, potentially wasting the attack or spell. On a succesful save, the creature is immune to this effect for 24 hours. An undead is also immune to this effect for 24 hours if you target it with an attack or a harmful spell.</text>
+            </feature><feature optional="YES">
+                <name>The Celestial: Healing Light</name>
+                <text>At 1st level, you gain the ability to channel celestial energy to heal wounds. You have a pool of d6s that you spend to fuel this healing. The number of dice in the pool equals 1 + your warlock level.</text>
+                <text>As a bonus action, you can heal one creature you can see within 60 feet of you, spending dice from the pool. The maximum number of dice you can spend at once equals your Charisma modifier (minimum of one die). Roll the dice you spend, add them together, and restore a number of hit points equal to the total.</text>
+                <text>Your pool regains all expended dice when you finish a long rest.</text>
             </feature>
             <feature>
                 <name>Pact Magic</name>
@@ -8583,6 +8604,10 @@
                 <text>Starting at 6th level, you can give yourself vitality when you cheat death or when you help someone else cheat it. You can regain hit points equal to 1d8 + your Constitution modifier (minimum of 1 hit point) when you succeed on a death saving throw or when you stabilize a creature with spare the dying.</text>
                 <text>    Once you use this feature, you can't use it again until you finish a long rest.</text>
             </feature>
+            <feature optional="YES">
+                <name>The Celestial: Radiant Soul</name>
+                <text>Starting at 6th level, your link to the Celestial allows you to serve as a conduit for radiant energy. You have resistance to radiant damage, and when you cast a spell that deals radiant or fire damage, you add your Charisma modifier to one radiant or fire damage roll of that spell against one of its targets.</text>
+            </feature>
         </autolevel>
         
         <autolevel level="7">
@@ -8624,6 +8649,10 @@
                 <name>The Undying: Undying Nature</name>
                 <text>Beginning at 10th level, you can hold your breath indefinitely, and you don't require food, water, or sleep, although you still require rest to reduce exhaustion and still benefit from finishing short and long rests.</text>
                 <text>    In addition, you age at a slower rate. For every 10 years that pass, your body ages only 1 year, and you are immune to being magically aged.</text>
+            </feature>
+            <feature optional="YES">
+                <name>The Celestial: Celestial Resistance</name>
+                <text>Starting at 10th level, you gain temporary hit points whenever you finish a short or long rest. These temporary hit points equal your warlock level + your Charisma modifier. Additionally, choose up to five creatures you can see at the end of the rest. Those creatures each gain temporary hit points equal to half your warlock level + your Charisma modifier.</text>
             </feature>
         </autolevel>
         
@@ -8677,6 +8706,11 @@
             <feature optional="YES">
                 <name>The Undying: Indestructible Life</name>
                 <text>When you reach 14th level, you partake some of the true secrets of the Undying. On your turn, you can use a bonus action to regain hit points equal to 1d8 + your warlock level. Additionally, if you put a severed body part of yours back in place when you use this feature, the part reattaches.</text>
+                <text>    Once you use this feature, you can't use it again until you finish a short or long rest.</text>
+            </feature>
+            <feature optional="YES">
+                <name>The Celestial: Searing Vengeance</name>
+                <text>Starting at 14th level, the radiant energy you channel allows you to resist death. When you have to make a death saving throw at the start of your turn, you can instead spring back to your feet with a burst of radiant energy. You regain hit points equal to half your hit point maximum, and then you stand up if you so choose. Each creature of your choice that is within 30 feet of you takes radiant damage equal to 2d8 + your Charisma modifier, and is blinded until the end of the current turn.</text>
                 <text>    Once you use this feature, you can't use it again until you finish a short or long rest.</text>
             </feature>
         </autolevel>
